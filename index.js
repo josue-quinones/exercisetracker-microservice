@@ -17,8 +17,8 @@ const UserSchema = new mongoose.Schema({
 });
 
 const User = new mongoose.model("User",UserSchema);
-// comment me out before push !
-mongoose.set('debug',true);
+// DEBUG
+//mongoose.set('debug',true);
 // Mondo DB - end
 
 // Middleware - start
